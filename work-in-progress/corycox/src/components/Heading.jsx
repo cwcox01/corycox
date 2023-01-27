@@ -30,16 +30,16 @@ function Header() {
       <div className="socialmedia-nav">
         <ul className="nav">
           <li>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/corywcox/">LinkedIn</a>
           </li>
           <li>
-            <a href="#">GitHub</a>
+            <a href="https://www.linkedin.com/in/corywcox/">GitHub</a>
           </li>
           <li>
-            <a href="#">Instagram</a>
+            <a href="https://www.linkedin.com/in/corywcox/">Instagram</a>
           </li>
           <li>
-            <a href="#">Facebook</a>
+            <a href="https://www.linkedin.com/in/corywcox/">Facebook</a>
           </li>
         </ul>
       </div>
