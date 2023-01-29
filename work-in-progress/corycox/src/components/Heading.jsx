@@ -30,16 +30,24 @@ function Header() {
       <div className="socialmedia-nav">
         <ul className="nav">
           <li>
-            <a href="https://www.linkedin.com/in/corywcox/">LinkedIn</a>
+            <button>
+              <a href="https://www.linkedin.com/in/corywcox/">LinkedIn</a>
+            </button>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/corywcox/">GitHub</a>
+            <button>
+              <a href="https://www.linkedin.com/in/corywcox/">GitHub</a>
+            </button>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/corywcox/">Instagram</a>
+            <button>
+              <a href="https://www.linkedin.com/in/corywcox/">Instagram</a>
+            </button>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/corywcox/">Facebook</a>
+            <button>
+              <a href="https://www.linkedin.com/in/corywcox/">Facebook</a>
+            </button>
           </li>
         </ul>
       </div>

@@ -4,6 +4,7 @@ import Heading from "./Heading";
 import Experiences from "./Experiences";
 import Hobbies from "./Hobbies";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experiences />
       <Hobbies />
       <Contact />
+      <Footer />
     </div>
   );
 }
