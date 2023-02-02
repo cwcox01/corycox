@@ -43,6 +43,10 @@ ul {
   color: #2c3639;
 }
 
+.header-intro {
+  text-align: left;
+}
+
 .h1-home a {
   text-decoration: none;
 }
@@ -115,13 +119,24 @@ footer {
 }
 
 .menu {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 /* setting layout for mobile */
 
 @media screen and (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
   .nav-header {
     flex-direction: column;
+    align-self: flex-end;
+  }
+
+  .socialmedia-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
   }
 }

@@ -11,7 +11,7 @@ function Footer() {
           <a href="mailto: cory@corycox.com">Email Me</a>
         </p>
         <div className="social-footer-icons">
-          <ul className="menu simple">
+          <ul className="menu simple nav">
             <li>
               <a href="https://www.facebook.com/">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
