@@ -1,3 +1,127 @@
-h1 {
-  color: blue;
+/* body section */
+body {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+/* p {
+  margin: 0;
+} */
+
+/* nav bar header section */
+.navbar {
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+  display: flex;
+}
+
+.navbar a {
+  color: #dcd7c9;
+  padding-left: 0.5rem;
+}
+
+/* navbar links */
+
+.nav-header a:active {
+  text-decoration: none;
+  color: #a27b5c;
+}
+.nav-header a:link {
+  text-decoration: none;
+}
+
+.nav-header a:hover {
+  text-decoration: none;
+  color: #a27b5c;
+}
+
+/* header section */
+.header {
+  background-color: #dcd7c9;
+  color: #2c3639;
+}
+
+.h1-home a {
+  text-decoration: none;
+}
+
+.h1-home a:link {
+  text-decoration: none;
+}
+
+.h1-home a:hover {
+  color: #a27b5c;
+}
+
+table {
+  display: flex;
+  width: 70%;
+}
+
+.socialmedia-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialmedia-navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialmedia-navbar a {
+  color: #3f4e4f;
+  text-decoration: none;
+}
+/* experiences section */
+.cory-experiences {
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+}
+
+.cory-experiences ul {
+  margin-bottom: 0;
+}
+
+.cory-experiences h3 {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.cory-experiences h3 i {
+  padding-left: 0.5rem;
+}
+
+/* corys hobby section */
+.cory-hobby {
+  background-color: #dcd7c9;
+  color: #2c3639;
+}
+
+/* corys contact section */
+.contact-cory {
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+}
+
+.contact-cory p:last-of-type {
+  margin: 0;
+}
+
+/* footer section */
+footer {
+  background-color: #dcd7c9;
+  color: #2c3639;
+}
+
+.menu {
+  margin-bottom: 0;
+}
+
+/* setting layout for mobile */
+
+@media screen and (max-width: 700px) {
+  .nav-header {
+    flex-direction: column;
+  }
 }

@@ -10,26 +10,26 @@ function Footer() {
         <p>
           <a href="mailto: cory@corycox.com">Email Me</a>
         </p>
-        <div class="social-footer-icons">
-          <ul class="menu simple">
+        <div className="social-footer-icons">
+          <ul className="menu simple">
             <li>
               <a href="https://www.facebook.com/">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/?hl=en">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/corywcox">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://github.com/cwcox01/">
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i className="fa fa-github" aria-hidden="true"></i>
               </a>
             </li>
           </ul>

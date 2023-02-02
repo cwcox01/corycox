@@ -2,8 +2,8 @@ import React from "react";
 
 function Hobbies() {
   return (
-    <div className="hobbies">
-      <h2 className="corys-hobbies">My Hobbies</h2>
+    <div className="cory-hobby">
+      <h2 className="corys-hobbies section-head">-My Hobbies</h2>
       <table>
         <tr>
           <td>Cycling</td>

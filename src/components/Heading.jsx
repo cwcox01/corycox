@@ -4,12 +4,12 @@ import headshot from "../img/cory-headshot.png";
 function Header() {
   return (
     <div className="header">
-      <table cellSpacing="20">
+      <table className="heading-table ps-1" cellSpacing="20">
         <tr>
-          <td>
+          <td className="ps-3">
             <img src={headshot} alt="Cory Cox Headshot" />
           </td>
-          <td>
+          <td className="ps-5">
             <h1>Cory Cox</h1>
             <p>
               <em>Help Desk Specialist</em>
@@ -24,28 +24,31 @@ function Header() {
           </td>
         </tr>
       </table>
-      <button>
-        <a href="mailto:cory@corycox.com">Email Me</a>
-      </button>
+
       <div className="socialmedia-nav">
-        <ul className="nav">
-          <li>
-            <button>
+        <ul className="socialmedia-navbar">
+          <li className="ps-1 ">
+            <button className="btn btn-secondary">
+              <a href="mailto:cory@corycox.com">Email Me</a>
+            </button>
+          </li>
+          <li className="ps-1">
+            <button className="btn btn-secondary">
               <a href="https://www.linkedin.com/in/corywcox/">LinkedIn</a>
             </button>
           </li>
-          <li>
-            <button>
+          <li className="ps-1">
+            <button className="btn btn-secondary">
               <a href="https://www.linkedin.com/in/corywcox/">GitHub</a>
             </button>
           </li>
-          <li>
-            <button>
+          <li className="ps-1">
+            <button className="btn btn-secondary">
               <a href="https://www.linkedin.com/in/corywcox/">Instagram</a>
             </button>
           </li>
-          <li>
-            <button>
+          <li className="ps-1">
+            <button className="btn btn-secondary">
               <a href="https://www.linkedin.com/in/corywcox/">Facebook</a>
             </button>
           </li>

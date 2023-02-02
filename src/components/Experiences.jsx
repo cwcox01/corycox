@@ -4,10 +4,10 @@ function Experiences() {
   return (
     // starting div for corys experiences
     <div className="cory-experiences">
-      <h2>Cory's Experiences</h2>
+      <h2 className="section-head">-Cory's Experiences</h2>
 
       <div className="work-experience">
-        <h3>- Professional Experience</h3>
+        <h3>Professional Experience</h3>
         <div className="helpdesk">
           <h4>Help Desk Specialist</h4>
           <p>2021 - Present</p>
@@ -19,7 +19,7 @@ function Experiences() {
         </div>
 
         <div className="education">
-          <h3 className="education-header">-Education</h3>
+          <h3 className="education-header">Education</h3>
           <div className="education-iupui">
             <h4>Indiana University Purdue University of Indianapolis</h4>
             <p>Bachelor's Degree, Computer and Information Technology, 2018</p>
