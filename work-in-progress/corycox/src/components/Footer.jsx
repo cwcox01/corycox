@@ -6,30 +6,41 @@ function Footer() {
   return (
     <div className="footer">
       <footer>
-        <p>&copy; Cory Cox {year}</p>
-        <p>
-          <a href="mailto: cory@corycox.com">Email Me</a>
+        <p className="cory-footer-name mb-0">&copy; Cory Cox {year}</p>
+        <p className=" mb-0 footer-email">
+          <a className="footer-email" href="mailto: cory@corycox.com">
+            Email Me
+          </a>
         </p>
         <div className="social-footer-icons">
           <ul className="menu simple nav">
             <li>
-              <a href="https://www.facebook.com/">
-                <i className="fa fa-facebook" aria-hidden="true"></i>
+              <a className="social-links" href="https://www.facebook.com/">
+                <i className="fa fa-facebook fa-sm" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/?hl=en">
-                <i className="fa fa-instagram" aria-hidden="true"></i>
+              <a
+                className="social-links"
+                href="https://www.instagram.com/?hl=en"
+              >
+                <i
+                  className="fa fa-instagram fa-sm ps-1"
+                  aria-hidden="true"
+                ></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/corywcox">
-                <i className="fa fa-linkedin" aria-hidden="true"></i>
+              <a
+                className="social-links"
+                href="https://www.linkedin.com/in/corywcox"
+              >
+                <i className="fa fa-linkedin fa-sm ps-1" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/cwcox01/">
-                <i className="fa fa-github" aria-hidden="true"></i>
+              <a className="social-links" href="https://github.com/cwcox01/">
+                <i className="fa fa-github fa-sm ps-1" aria-hidden="true"></i>
               </a>
             </li>
           </ul>

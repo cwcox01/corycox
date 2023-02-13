@@ -4,148 +4,139 @@ function Experiences() {
   return (
     // starting div for corys experiences
     <div className="cory-experiences">
-      <h2 className="section-head">-Cory's Experiences</h2>
+      <h2 className="section-head fs-1 ps-1">Cory's Experiences</h2>
 
       <div className="work-experience">
-        <h3>Professional Experience</h3>
-        <div className="helpdesk">
-          <h4>Help Desk Specialist</h4>
-          <p>2021 - Present</p>
+        <h3 className="fs-4">Professional Experience</h3>
+        <div className="work-jobs ms-5">
+          <div className="jobs">
+            <h4 className="fs-5">Help Desk Specialist</h4>
+            <p className="fs-6">2021 - Present</p>
+            <h4 className="fs-5">Field Technician</h4>
+            <p className="fs-6">2020 - 2021</p>
+          </div>
         </div>
-
-        <div className="field-technician">
-          <h4>Field Technician</h4>
-          <p>2020 - 2021</p>
-        </div>
-
         <div className="education">
-          <h3 className="education-header">Education</h3>
-          <div className="education-iupui">
-            <h4>Indiana University Purdue University of Indianapolis</h4>
-            <p>Bachelor's Degree, Computer and Information Technology, 2018</p>
-            <p>Certificate, Organizational Leadership, 2018</p>
+          <h3 className="education-header fs-4">Education</h3>
+          <div className="education-iupui ms-5">
+            <h4 className="fs-5">IUPUI</h4>
+            <p className="fs-6">
+              Major, Computer and Information Technology, 2018
+            </p>
+            <p className="fs-6">Cert, Organizational Leadership, 2018</p>
           </div>
         </div>
 
         <div className="skills-section">
-          <h3>Skills</h3>
-          <ul className="skills-bar-container">
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  HTML5<i className="fa-brands fa-html5"></i>
-                </h3>
-                <span className="percent" id="html-pourcent"></span>
+          <h3 className="fs-4">Skills</h3>
+          <div className="all-skills ps-5">
+            <div className="left-skills">
+              <h3 className="fs-5">
+                HTML5<i className="fa-brands fa-html5"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills html"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressred"
-                  id="progress-html"
-                ></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  CSS<i className="fa-brands fa-css3"></i>
-                </h3>
-                <span className="percent" id="css-pourcent"></span>
-              </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressblue"
-                  id="progress-css"
-                ></span>
-              </div>
-            </li>
 
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  JavaScript<i className="fa-brands fa-js"></i>
-                </h3>
-                <span className="percent" id="javascript-pourcent"></span>
+              <h3 className="fs-5">
+                CSS<i className="fa-brands fa-css3"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills css"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progresspurple"
-                  id="progress-javascript"
-                ></span>
+              <h3 className="fs-5">
+                JavaScript<i className="fa-brands fa-js"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills js"></div>
+                </div>
               </div>
-            </li>
+              <h3 className="fs-5">
+                End User Support<i className="fa-brands fa-hire-a-helper"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills end-user"></div>
+                </div>
+              </div>
+            </div>
+            <div className="middle-skills ps-5">
+              <h3 className="fs-5">
+                Bootstrap<i className="fa-brands fa-bootstrap"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills bootstrap"></div>
+                </div>
+              </div>
 
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  ReactJS<i className="fa-brands fa-react"></i>
-                </h3>
-                <span className="percent" id="react-pourcent"></span>
+              <h3 className="fs-5">
+                iOS Development<i className="fa-brands fa-apple"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills ios-dev"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressorange"
-                  id="progress-react"
-                ></span>
-              </div>
-            </li>
 
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Bootstrap<i className="fa-brands fa-bootstrap"></i>
-                </h3>
-                <span className="percent" id="bootstrap-pourcent"></span>
+              <h3 className="fs-5">
+                Xcode<i className="fa-solid fa-code"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills xcode"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressgreen"
-                  id="progress-bootstrap"
-                ></span>
+              <h3 className="fs-5">
+                Swift<i className="fa-brands fa-swift"></i>
+              </h3>
+              <div className="ps-2 pb-4">
+                <div className="skills-container">
+                  <div className="skills swift"></div>
+                </div>
               </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  IOs Development<i className="fa-brands fa-apple"></i>
-                </h3>
-                <span className="percent" id="ios-pourcent"></span>
+            </div>
+            <div className="right-skills ps-5">
+              <h3 className="fs-5">
+                Windows 10/11<i className="fa-brands fa-windows"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills windows"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressgreen"
-                  id="progress-ios"
-                ></span>
+              <h3 className="fs-5">
+                Mac OS<i className="fa-brands fa-apple"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills mac-os"></div>
+                </div>
               </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Xcode<i className="fa-solid fa-code"></i>
-                </h3>
-                <span className="percent" id="xcode-pourcent"></span>
+              <h3 className="fs-5">
+                Active Directory<i className="fa-solid fa-computer"></i>
+              </h3>
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills active-directory"></div>
+                </div>
               </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressgreen"
-                  id="progress-xcode"
-                ></span>
+              <h3 className="fs-5">
+                React JS<i className="fa-brands fa-react"></i>
+              </h3>
+
+              <div className="ps-2">
+                <div className="skills-container">
+                  <div className="skills react-js"></div>
+                </div>
               </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Swift<i className="fa-brands fa-swift"></i>
-                </h3>
-                <span className="percent" id="xcode-pourcent"></span>
-              </div>
-              <div className="bar-container">
-                <span
-                  className="progressbar progressgreen"
-                  id="progress-xcode"
-                ></span>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

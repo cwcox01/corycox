@@ -21,6 +21,12 @@ function Navbar() {
             <a href="https://www.linkedin.com/in/corywcox/">Contact Me</a>
           </li>
         </ul>
+        <div className="hamburger">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </nav>
     </div>
   );

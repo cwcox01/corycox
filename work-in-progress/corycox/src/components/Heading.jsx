@@ -5,8 +5,8 @@ function Header() {
   return (
     <div className="header">
       <table className="heading-table ps-1" cellSpacing="20">
-        <tr>
-          <td className="ps-3">
+        <tr className="headshot-img">
+          <td className=" pt-2 ps-3">
             <img src={headshot} alt="Cory Cox Headshot" />
           </td>
         </tr>
