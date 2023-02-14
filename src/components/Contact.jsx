@@ -4,13 +4,7 @@ function Contact() {
   return (
     <div className="contact-cory" id="contact-me">
       <h2 className="contact-header section-head">Contact Cory</h2>
-      <form
-        name="contact"
-        method="post"
-        data-netlify="true"
-        data-netlify-recaptcha="true"
-        netlify-honeypot="bot-field"
-      >
+      <form name="contact" method="post" data-netlify="true">
         <p>
           <label>
             Your Name: <input type="text" name="name" />
