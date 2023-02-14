@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="contact-cory" id="contact-me">
       <h2 className="contact-header section-head">Contact Cory</h2>
-      <form name="contact" method="POST" data-netlify="true" action="/">
+      <form name="contact" method="POST" data-netlify="true" action="/" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
         <input type="hidden" name="contact" value="contact" />
 
         <p>
