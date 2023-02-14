@@ -6,14 +6,11 @@ function Contact() {
       <h2 className="contact-header section-head">Contact Cory</h2>
       <form
         name="contact"
-        method="POST"
+        method="post"
         data-netlify="true"
-        action="/"
         data-netlify-recaptcha="true"
         netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="contact" />
-
         <p>
           <label>
             Your Name: <input type="text" name="name" />
