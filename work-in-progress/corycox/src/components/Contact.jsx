@@ -5,6 +5,8 @@ function Contact() {
     <div className="contact-cory" id="contact-me">
       <h2 className="contact-header section-head">Contact Cory</h2>
       <form name="contact" method="POST" data-netlify="true" netlify>
+      <input type="hidden" name="form-name" value="contact" />
+
         <p>
           <label>
             Your Name: <input type="text" name="name" />
