@@ -4,29 +4,29 @@ import headshot from "../img/cory-headshot.png";
 function Header() {
   return (
     <div className="header">
-      <table className="heading-table ps-1" cellSpacing="20">
-        <tr className="headshot-img">
-          <td className=" pt-2 ps-3">
+      <div className="header-img ps-1">
+        <div className="headshot-img">
+          <div className=" pt-2 ps-3">
             <img src={headshot} alt="Cory Cox Headshot" />
-          </td>
-        </tr>
-        <tr>
-          <td className="ps-5">
+          </div>
+        </div>
+        <div>
+          <div className="ps-5 header-info">
             <h1>Cory Cox</h1>
             <p>
               <em>Help Desk Specialist</em>
             </p>
-            <p className="header-intro">
+            <p className="heading-intro">
               I am a Help Desk Specialist aspiring to be a Software Developer. I
               have a degree in Computer and Information Technology. I also have
               6 years of experience in the Information Technology Field.
             </p>
-          </td>
-        </tr>
-      </table>
+          </div>
+        </div>
+      </div>
 
       <div className="socialmedia-nav">
-        <ul className="socialmedia-navbar pe-5">
+        <ul className="socialmedia-navbar">
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
               <a href="mailto:cory@corycox.com">Email Me</a>

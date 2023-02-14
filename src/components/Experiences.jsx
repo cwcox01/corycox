@@ -29,7 +29,7 @@ function Experiences() {
 
         <div className="skills-section">
           <h3 className="fs-4">Skills</h3>
-          <div className="all-skills ps-5">
+          <div className="all-skills">
             <div className="left-skills">
               <h3 className="fs-5">
                 HTML5<i className="fa-brands fa-html5"></i>
@@ -49,7 +49,7 @@ function Experiences() {
                 </div>
               </div>
               <h3 className="fs-5">
-                JavaScript<i className="fa-brands fa-js"></i>
+                JS<i className="fa-brands fa-js"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
@@ -57,7 +57,7 @@ function Experiences() {
                 </div>
               </div>
               <h3 className="fs-5">
-                End User Support<i className="fa-brands fa-hire-a-helper"></i>
+                Helpdesk<i className="fa-brands fa-hire-a-helper"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
@@ -65,7 +65,7 @@ function Experiences() {
                 </div>
               </div>
             </div>
-            <div className="middle-skills ps-5">
+            <div className="middle-skills">
               <h3 className="fs-5">
                 Bootstrap<i className="fa-brands fa-bootstrap"></i>
               </h3>
@@ -76,7 +76,7 @@ function Experiences() {
               </div>
 
               <h3 className="fs-5">
-                iOS Development<i className="fa-brands fa-apple"></i>
+                iOS<i className="fa-brands fa-apple"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
@@ -95,23 +95,24 @@ function Experiences() {
               <h3 className="fs-5">
                 Swift<i className="fa-brands fa-swift"></i>
               </h3>
-              <div className="ps-2 pb-4">
+              <div className="ps-2">
                 <div className="skills-container">
                   <div className="skills swift"></div>
                 </div>
               </div>
             </div>
-            <div className="right-skills ps-5">
+            <div className="right-skills">
               <h3 className="fs-5">
-                Windows 10/11<i className="fa-brands fa-windows"></i>
+                Win 10/11<i className="fa-brands fa-windows"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
                   <div className="skills windows"></div>
                 </div>
               </div>
+
               <h3 className="fs-5">
-                Mac OS<i className="fa-brands fa-apple"></i>
+                macOS<i className="fa-brands fa-apple"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
@@ -119,7 +120,7 @@ function Experiences() {
                 </div>
               </div>
               <h3 className="fs-5">
-                Active Directory<i className="fa-solid fa-computer"></i>
+                AD<i className="fa-solid fa-computer"></i>
               </h3>
               <div className="ps-2">
                 <div className="skills-container">
@@ -127,7 +128,7 @@ function Experiences() {
                 </div>
               </div>
               <h3 className="fs-5">
-                React JS<i className="fa-brands fa-react"></i>
+                React<i className="fa-brands fa-react"></i>
               </h3>
 
               <div className="ps-2">

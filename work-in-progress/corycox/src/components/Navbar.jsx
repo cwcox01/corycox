@@ -17,7 +17,7 @@ function Navbar() {
           <li className="hobbies-cory">
             <a href="https://www.linkedin.com/in/corywcox/">Hobbies</a>
           </li>
-          <li className="contact-cory me-3">
+          <li className="me-3">
             <a href="https://www.linkedin.com/in/corywcox/">Contact Me</a>
           </li>
         </ul>

@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="contact-cory">
-      <h2 className="contact-header section-head">-Contact Cory</h2>
+      <h2 className="contact-header section-head">Contact Cory</h2>
       <form name="contact" method="POST" data-netlify="true">
         <p>
           <label>
@@ -22,7 +22,9 @@ function Contact() {
           </label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button className="btn btn-secondary" type="submit">
+            Send
+          </button>
         </p>
       </form>
     </div>
