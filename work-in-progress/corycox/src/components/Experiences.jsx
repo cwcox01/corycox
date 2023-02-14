@@ -3,7 +3,7 @@ import React from "react";
 function Experiences() {
   return (
     // starting div for corys experiences
-    <div className="cory-experiences">
+    <div className="cory-experiences" id="experience-cory">
       <h2 className="section-head fs-1 ps-1">Cory's Experiences</h2>
 
       <div className="work-experience">

@@ -9,16 +9,16 @@ function Navbar() {
       <nav>
         <ul className="nav nav-header">
           <li className="about-cory">
-            <a href="https://www.linkedin.com/in/corywcox/">About Cory</a>
+            <a href="#about-cory">About Cory</a>
           </li>
           <li className="experiences-cory">
-            <a href="https://www.linkedin.com/in/corywcox/">Experiences</a>
+            <a href="#experience-cory">Experiences</a>
           </li>
           <li className="hobbies-cory">
-            <a href="https://www.linkedin.com/in/corywcox/">Hobbies</a>
+            <a href="#cory-hobby">Hobbies</a>
           </li>
           <li className="me-3">
-            <a href="https://www.linkedin.com/in/corywcox/">Contact Me</a>
+            <a href="#contact-me">Contact Me</a>
           </li>
         </ul>
         <div className="hamburger">

@@ -3,7 +3,7 @@ import headshot from "../img/cory-headshot.png";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header" id="about-cory">
       <div className="header-img ps-1">
         <div className="headshot-img">
           <div className=" pt-2 ps-3">
@@ -39,17 +39,17 @@ function Header() {
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.linkedin.com/in/corywcox/">GitHub</a>
+              <a href="https://github.com/cwcox01">GitHub</a>
             </button>
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.linkedin.com/in/corywcox/">Instagram</a>
+              <a href="https://www.instagram.com/ugotcced/">Instagram</a>
             </button>
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.linkedin.com/in/corywcox/">Facebook</a>
+              <a href="https://www.facebook.com/cwcox01">Facebook</a>
             </button>
           </li>
         </ul>

@@ -15,14 +15,14 @@ function Footer() {
         <div className="social-footer-icons">
           <ul className="menu simple nav">
             <li>
-              <a className="social-links" href="https://www.facebook.com/">
+              <a className="social-links" href="https://www.facebook.com/cwcox01">
                 <i className="fa fa-facebook fa-sm" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a
                 className="social-links"
-                href="https://www.instagram.com/?hl=en"
+                href="https://www.instagram.com/ugotcced/"
               >
                 <i
                   className="fa fa-instagram fa-sm ps-1"
