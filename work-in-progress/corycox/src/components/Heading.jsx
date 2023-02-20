@@ -1,7 +1,10 @@
 import React from "react";
+
+// importing photo headshot
 import headshot from "../img/cory-headshot.png";
 
 function Header() {
+
   return (
     <div className="header" id="about-cory">
       <div className="header-img ps-1">
@@ -17,9 +20,7 @@ function Header() {
               <em>Help Desk Specialist</em>
             </p>
             <p className="heading-intro">
-              I am a Help Desk Specialist aspiring to be a Software Developer. I
-              have a degree in Computer and Information Technology. I also have
-              6 years of experience in the Information Technology Field.
+            I am a Help Desk Specialist aspiring to be a Software Developer. I have a degree in Computer and Information Technology. I also have 6 years of experience in the Information Technology Field.
             </p>
           </div>
         </div>

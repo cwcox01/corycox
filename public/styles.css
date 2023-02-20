@@ -5,9 +5,6 @@ body {
 ul {
   list-style-type: none;
 }
-/* p {
-  margin: 0;
-} */
 
 /* nav bar header section */
 .navbar {
@@ -43,7 +40,7 @@ ul {
   padding: 2rem 2rem;
 }
 
-.header-img{
+.header-img {
   display: flex;
 }
 
@@ -80,6 +77,7 @@ ul {
   color: #3f4e4f;
   text-decoration: none;
 }
+
 /* experiences section */
 .cory-experiences {
   background-color: #3f4e4f;
@@ -186,8 +184,6 @@ footer {
   color: #2c3639;
 }
 
-/* setting layout for mobile */
-
 /* skills section experiences interactive part */
 * {
   box-sizing: border-box;
@@ -205,73 +201,13 @@ footer {
   color: white;
 }
 
-/* .skills-section {
-  display: grid;
-  width: 40%;
-  grid-template-columns: repeat(4, 1fr);
-} */
-
-.html {
-  width: 95%;
-  background-color: #04aa6d;
-}
-.css {
-  width: 90%;
-  background-color: #2196f3;
-}
-.js {
-  width: 90%;
-  background-color: #f44336;
-}
-.react-js {
-  width: 90%;
-  background-color: #f44336;
-}
-.bootstrap {
-  width: 90%;
-  background-color: #2196f3;
-}
-
-.ios-dev {
-  width: 70%;
-  background-color: #f44336;
-}
-
-.xcode {
-  width: 65%;
-  background-color: #04aa6d;
-}
-
-.swift {
-  width: 60%;
-  background-color: #2196f3;
-}
-
-.windows {
-  width: 95%;
-  background-color: #f44336;
-}
-
-.mac-os {
-  width: 90%;
-  background-color: #04aa6d;
-}
-
 .active-directory {
   width: 90%;
   background-color: #2196f3;
 }
 
-.end-user {
-  width: 100%;
-  background-color: #04aa6d;
-}
-
 .all-skills {
-  /* display: flex;
-  flex-direction: row; */
   display: grid;
-  /* width: 100%; */
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3rem;
 }
@@ -280,6 +216,7 @@ footer {
   margin-top: 1rem;
 }
 
+/* setting layout for mobile */
 @media screen and (max-width: 700px) {
   body {
     flex-direction: column;

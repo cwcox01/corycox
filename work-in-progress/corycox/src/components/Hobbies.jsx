@@ -1,4 +1,5 @@
 import React from "react";
+import Hobby from "./Hobby";
 
 function Hobbies() {
   return (
@@ -6,49 +7,27 @@ function Hobbies() {
       <h2 className="corys-hobbies section-head">My Hobbies</h2>
       <div className="hobby-list">
         <div className="hobby-first-list">
-          <div>
-            Cycling <i className="fa-solid fa-bicycle"></i>
-          </div>
-          <div>
-            DIY Projects <i className="fa-solid fa-screwdriver-wrench"></i>
-          </div>
-          <div>
-            Exercising<i className=" ps-1 fa-solid fa-person-walking"></i>
-          </div>
+          <Hobby name="Cycling" icon="fa-bicycle" />
+          <Hobby name="DIY Projects" icon="fa-screwdriver-wrench" />
+          <Hobby name="Exercising" icon="fa-person-walking" />
         </div>
         <div className="hobby-second-list">
-          <div>
-            Michigan Wolverines<i className="ps-1 fa-solid fa-football"></i>
-          </div>
-          <div>
-            Chicago Cubs<i className="ps-1 fa-solid fa-baseball"></i>
-          </div>
-          <div>
-            Indianapolis Colts<i className="ps-1 fa-solid fa-horse"></i>
-          </div>
+          <Hobby name="Michigan Wolveries" icon="fa-football" />
+          <Hobby name="Chicago Cubs" icon="fa-baseball" />
+          <Hobby name="Indianapolis Colts" icon="fa-horse" />
         </div>
         <div className="hobby-third-list">
-          <div>
-            Sports<i className="ps-1 fa-solid fa-stopwatch-20"></i>
-          </div>
-          <div>
-            Football<i className="ps-1 fa-sharp fa-solid fa-football"></i>
-          </div>
-          <div>
-            Baseball<i className="ps-1 fa-solid fa-baseball-bat-ball"></i>
-          </div>
+          <Hobby name="Sports" icon="fa-stopwatch-20" />
+          <Hobby name="Football" icon="fa-sharp fa-football" />
+          <Hobby name="Baseball" icon="fa-baseball-bat-ball" />
         </div>
         <div className="hobby-fourth-list">
-          <div>
-            Computers<i className="ps-1 fa-solid fa-computer-mouse"></i>
-          </div>
+          <Hobby name="Computers" icon="fa-computer-mouse" />
           <div>
             Web Development
             <i className="ps-1 fa-brands fa-internet-explorer"></i>
           </div>
-          <div>
-            App Development<i className="ps-1 fa-solid fa-mobile"></i>
-          </div>
+          <Hobby name="App Development" icon="fa-mobile" />
         </div>
       </div>
     </div>
