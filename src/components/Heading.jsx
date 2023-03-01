@@ -4,7 +4,6 @@ import React from "react";
 import headshot from "../img/cory-headshot.png";
 
 function Header() {
-
   return (
     <div className="header" id="about-cory">
       <div className="header-img ps-1">
@@ -20,14 +19,16 @@ function Header() {
               <em>Help Desk Specialist</em>
             </p>
             <p className="heading-intro">
-            I am a Help Desk Specialist aspiring to be a Software Developer. I have a degree in Computer and Information Technology. I also have 6 years of experience in the Information Technology Field.
+              I am a Help Desk Specialist aspiring to be a Software Developer. I
+              have a degree in Computer and Information Technology. I also have
+              6 years of experience in the Information Technology Field.
             </p>
           </div>
         </div>
       </div>
 
       <div className="socialmedia-nav">
-        <ul className="socialmedia-navbar">
+        <ul className="socialmedia-navbar btn-cory pt-1">
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
               <a href="mailto:cory@corycox.com">Email Me</a>
@@ -35,22 +36,46 @@ function Header() {
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.linkedin.com/in/corywcox/">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/corywcox/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
             </button>
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://github.com/cwcox01">GitHub</a>
+              <a
+                href="https://github.com/cwcox01"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </button>
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.instagram.com/ugotcced/">Instagram</a>
+              <a
+                href="https://www.instagram.com/ugotcced/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
             </button>
           </li>
           <li className="ps-1 pt-1">
             <button className="btn btn-secondary">
-              <a href="https://www.facebook.com/cwcox01">Facebook</a>
+              <a
+                href="https://www.facebook.com/cwcox01"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Facebook
+              </a>
             </button>
           </li>
         </ul>

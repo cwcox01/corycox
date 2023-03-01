@@ -1,5 +1,6 @@
 import React from "react";
 import Skill from "./Skill.jsx";
+import Portfolio from "./Portfolio.jsx";
 
 function Experiences() {
   return (
@@ -112,6 +113,10 @@ function Experiences() {
               />
             </div>
           </div>
+        </div>
+        <div className="portfolio">
+          <h3>Cory's Portfolio</h3>
+          <Portfolio />
         </div>
       </div>
     </div>

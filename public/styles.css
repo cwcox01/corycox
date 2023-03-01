@@ -1,9 +1,14 @@
-/* body section */
+/* body section and misc css elements*/
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul {
   list-style-type: none;
+}
+
+.btn-cory a {
+  color: white;
+  text-decoration: none;
 }
 
 /* nav bar header section */
@@ -71,11 +76,6 @@ ul {
 .socialmedia-navbar {
   display: flex;
   flex-direction: row;
-}
-
-.socialmedia-navbar a {
-  color: #3f4e4f;
-  text-decoration: none;
 }
 
 /* experiences section */
