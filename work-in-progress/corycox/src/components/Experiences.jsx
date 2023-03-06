@@ -1,6 +1,16 @@
 import React from "react";
+
+// breaking down sections into smaller workable components
 import Skill from "./Skill.jsx";
 import Portfolio from "./Portfolio.jsx";
+import ExperienceItem from "./ExperienceItem.jsx";
+import EducationItem from "./EducationItem.jsx";
+
+// <h4 className="fs-5">IUPUI</h4>
+//             <p className="fs-6">
+//               Major, Computer and Information Technology, 2018
+//             </p>
+//             <p className="fs-6">Cert, Organizational Leadership, 2018</p>
 
 function Experiences() {
   return (
@@ -11,20 +21,20 @@ function Experiences() {
         <h3 className="fs-4">Professional Experience</h3>
         <div className="work-jobs ms-5">
           <div className="jobs">
-            <h4 className="fs-5">Helpdesk Specialist</h4>
-            <p className="fs-6">2021 - Present</p>
-            <h4 className="fs-5">Field Technician</h4>
-            <p className="fs-6">2020 - 2021</p>
+            <ExperienceItem
+              jobTitle="Help Desk Sepcialist"
+              jobYears="2021 - Present"
+            />
+            <ExperienceItem
+              jobTitle="Field Technician"
+              jobYears="2020 - 2021"
+            />
           </div>
         </div>
         <div className="education">
           <h3 className="education-header fs-4">Education</h3>
           <div className="education-iupui ms-5">
-            <h4 className="fs-5">IUPUI</h4>
-            <p className="fs-6">
-              Major, Computer and Information Technology, 2018
-            </p>
-            <p className="fs-6">Cert, Organizational Leadership, 2018</p>
+            <EducationItem educationSchool="IUPUI" educationLearned="Major, Computer and Information Technology, 2018" educationLearned2="Cert, Organizational Leadership, 2018" />
           </div>
         </div>
 

@@ -1,5 +1,9 @@
 import React from "react";
 
+// importing component items
+
+import NavbarUl from "./NavbarUl";
+
 function Navbar() {
   return (
     <div className="navbar">
@@ -7,26 +11,7 @@ function Navbar() {
         <a href="index.html">Cory Cox</a>
       </h1>
       <nav>
-        <ul className="nav nav-header">
-          <li className="about-cory">
-            <a href="#about-cory">About Cory</a>
-          </li>
-          <li className="experiences-cory">
-            <a href="#experience-cory">Experiences</a>
-          </li>
-          <li className="hobbies-cory">
-            <a href="#cory-hobby">Hobbies</a>
-          </li>
-          <li className="me-3">
-            <a href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
-        <div className="hamburger">
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </div>
+        <NavbarUl />
       </nav>
     </div>
   );
