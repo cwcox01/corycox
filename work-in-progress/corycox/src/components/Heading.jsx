@@ -3,6 +3,10 @@ import React from "react";
 // importing photo headshot
 import headshot from "../img/cory-headshot.png";
 
+// importing smaller components
+import Socialmedianav from "./Socialmedianav";
+import HeadingintroItem from "./HeadingintroItem";
+
 function Header() {
   return (
     <div className="header" id="about-cory">
@@ -13,72 +17,18 @@ function Header() {
           </div>
         </div>
         <div>
-          <div className="ps-5 header-info">
-            <h1>Cory Cox</h1>
-            <p>
-              <em>Help Desk Specialist</em>
-            </p>
-            <p className="heading-intro">
-              I am a Help Desk Specialist aspiring to be a Software Developer. I
-              have a degree in Computer and Information Technology. I also have
-              6 years of experience in the Information Technology Field.
-            </p>
-          </div>
+          <HeadingintroItem
+            headingName="Cory Cox"
+            headingJobTitle="Help Desk Specialist"
+            headingIntro="I am a Help Desk Specialist aspiring to be a Software Developer. I
+                         have a degree in Computer and Information Technology. I also have
+                         6 years of experience in the Information Technology Field."
+          />
         </div>
       </div>
 
       <div className="socialmedia-nav">
-        <ul className="socialmedia-navbar btn-cory pt-1">
-          <li className="ps-1 pt-1">
-            <button className="btn btn-secondary">
-              <a href="mailto:cory@corycox.com">Email Me</a>
-            </button>
-          </li>
-          <li className="ps-1 pt-1">
-            <button className="btn btn-secondary">
-              <a
-                href="https://www.linkedin.com/in/corywcox/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </button>
-          </li>
-          <li className="ps-1 pt-1">
-            <button className="btn btn-secondary">
-              <a
-                href="https://github.com/cwcox01"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-            </button>
-          </li>
-          <li className="ps-1 pt-1">
-            <button className="btn btn-secondary">
-              <a
-                href="https://www.instagram.com/ugotcced/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Instagram
-              </a>
-            </button>
-          </li>
-          <li className="ps-1 pt-1">
-            <button className="btn btn-secondary">
-              <a
-                href="https://www.facebook.com/cwcox01"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Facebook
-              </a>
-            </button>
-          </li>
-        </ul>
+        <Socialmedianav />
       </div>
     </div>
   );

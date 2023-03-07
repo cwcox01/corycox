@@ -6,12 +6,6 @@ import Portfolio from "./Portfolio.jsx";
 import ExperienceItem from "./ExperienceItem.jsx";
 import EducationItem from "./EducationItem.jsx";
 
-// <h4 className="fs-5">IUPUI</h4>
-//             <p className="fs-6">
-//               Major, Computer and Information Technology, 2018
-//             </p>
-//             <p className="fs-6">Cert, Organizational Leadership, 2018</p>
-
 function Experiences() {
   return (
     // starting div for corys experiences
@@ -34,7 +28,11 @@ function Experiences() {
         <div className="education">
           <h3 className="education-header fs-4">Education</h3>
           <div className="education-iupui ms-5">
-            <EducationItem educationSchool="IUPUI" educationLearned="Major, Computer and Information Technology, 2018" educationLearned2="Cert, Organizational Leadership, 2018" />
+            <EducationItem
+              educationSchool="IUPUI"
+              educationLearned="Major, Computer and Information Technology, 2018"
+              educationLearned2="Cert, Organizational Leadership, 2018"
+            />
           </div>
         </div>
 
