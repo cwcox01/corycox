@@ -1,5 +1,8 @@
 import React from "react";
 
+// importing smaller component for the footer social media links
+import FooterList from "./FooterList";
+
 function Footer() {
   const today = new Date();
   const year = today.getFullYear();
@@ -13,37 +16,7 @@ function Footer() {
           </a>
         </p>
         <div className="social-footer-icons">
-          <ul className="menu simple nav">
-            <li>
-              <a className="social-links" href="https://www.facebook.com/cwcox01">
-                <i className="fa fa-facebook fa-sm" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                className="social-links"
-                href="https://www.instagram.com/ugotcced/"
-              >
-                <i
-                  className="fa fa-instagram fa-sm ps-1"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </li>
-            <li>
-              <a
-                className="social-links"
-                href="https://www.linkedin.com/in/corywcox"
-              >
-                <i className="fa fa-linkedin fa-sm ps-1" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a className="social-links" href="https://github.com/cwcox01/">
-                <i className="fa fa-github fa-sm ps-1" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
+          <FooterList />
         </div>
       </footer>
     </div>
