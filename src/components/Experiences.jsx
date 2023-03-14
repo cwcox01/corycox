@@ -10,10 +10,12 @@ function Experiences() {
   return (
     // starting div for corys experiences
     <div className="cory-experiences" id="experience-cory">
-      <h2 className="section-head fs-1 ps-1">Cory's Experiences</h2>
+      <div className="section-header">
+        <h2 className="section-head fs-1 ps-1">Cory's Experiences</h2>
+      </div>
       <div className="work-experience">
-        <h3 className="fs-4">Professional Experience</h3>
-        <div className="work-jobs ms-5">
+        <h3 className="fs-4 sub-section-head">Professional Experience</h3>
+        <div className="work-jobs ms-5 pt-4">
           <div className="jobs">
             <ExperienceItem
               jobTitle="Help Desk Sepcialist"
@@ -26,8 +28,8 @@ function Experiences() {
           </div>
         </div>
         <div className="education">
-          <h3 className="education-header fs-4">Education</h3>
-          <div className="education-iupui ms-5">
+          <h3 className="education-header fs-4 sub-section-head">Education</h3>
+          <div className="education-iupui ms-5 pt-4">
             <EducationItem
               educationSchool="IUPUI"
               educationLearned="Major, Computer and Information Technology, 2018"
@@ -37,7 +39,7 @@ function Experiences() {
         </div>
 
         <div className="skills-section">
-          <h3 className="fs-4">Skills</h3>
+          <h3 className="fs-4 sub-section-head">Skills</h3>
           <div className="all-skills">
             <div className="left-skills">
               <Skill
@@ -123,7 +125,7 @@ function Experiences() {
           </div>
         </div>
         <div className="portfolio">
-          <h3>Cory's Portfolio</h3>
+          <h3 className="sub-section-head">Cory's Portfolio</h3>
           <Portfolio />
         </div>
       </div>

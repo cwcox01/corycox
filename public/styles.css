@@ -2,6 +2,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 ul {
   list-style-type: none;
 }
@@ -11,11 +12,23 @@ ul {
   text-decoration: none;
 }
 
+.section-header {
+  text-align: center;
+}
+
+.sub-section-head {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  border-radius: 5px;
+}
+
 /* nav bar header section */
 .navbar {
   background-color: #3f4e4f;
   color: #dcd7c9;
   display: flex;
+  font-family: cursive;
 }
 
 .navbar a {

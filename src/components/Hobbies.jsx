@@ -4,7 +4,7 @@ import Hobby from "./Hobby";
 function Hobbies() {
   return (
     <div className="cory-hobby" id="cory-hobby">
-      <h2 className="corys-hobbies section-head">My Hobbies</h2>
+      <h2 className="corys-hobbies section-head section-header">My Hobbies</h2>
       <div className="hobby-list">
         <div className="hobby-first-list">
           <Hobby name="Cycling" icon="fa-bicycle" />
