@@ -5,7 +5,7 @@ export default function PortfolioItem({ url, btnText }) {
     <li>
       <button className="btn btn-secondary">
         <a href={url} target="_blank" rel="noreferrer">
-          {btnText}
+          <span>{btnText}</span>
         </a>
       </button>
     </li>

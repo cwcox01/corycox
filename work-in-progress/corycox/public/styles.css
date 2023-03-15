@@ -1,4 +1,4 @@
-/* body section and misc css elements*/
+/* body section and misc css elements applying to everywhere*/
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -7,7 +7,7 @@ ul {
   list-style-type: none;
 }
 
-.btn-cory a {
+.btn a {
   color: white;
   text-decoration: none;
 }
@@ -21,6 +21,31 @@ ul {
   border-bottom: 1px solid;
   text-align: center;
   border-radius: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /* nav bar header section */
@@ -50,6 +75,18 @@ ul {
   color: #a27b5c;
 }
 
+.h1-home a {
+  text-decoration: none;
+}
+
+.h1-home a:link {
+  text-decoration: none;
+}
+
+.h1-home a:hover {
+  color: #a27b5c;
+}
+
 /* header section */
 .header {
   background-color: #dcd7c9;
@@ -67,18 +104,6 @@ ul {
 
 .heading-intro {
   text-align: left;
-}
-
-.h1-home a {
-  text-decoration: none;
-}
-
-.h1-home a:link {
-  text-decoration: none;
-}
-
-.h1-home a:hover {
-  color: #a27b5c;
 }
 
 .socialmedia-nav {
