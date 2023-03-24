@@ -6,7 +6,7 @@ export default function FooterItem({
   footerITagClassName,
 }) {
   return (
-    <li>
+    <li className="pe-1">
       <a
         className="social-links"
         href={footerSocialUrl}

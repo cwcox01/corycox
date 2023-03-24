@@ -1,4 +1,5 @@
 /* body section and misc css elements applying to everywhere*/
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,6 +50,7 @@ ul {
 }
 
 /* nav bar header section */
+
 .navbar {
   background-color: #3f4e4f;
   color: #dcd7c9;
@@ -89,6 +91,7 @@ ul {
 }
 
 /* header section */
+
 .header {
   background-color: #dcd7c9;
   color: #2c3639;
@@ -117,6 +120,7 @@ ul {
 }
 
 /* experiences section */
+
 .cory-experiences {
   background-color: #3f4e4f;
   color: #dcd7c9;
@@ -137,6 +141,7 @@ ul {
 }
 
 /* corys hobby section */
+
 .cory-hobby {
   background-color: #dcd7c9;
   color: #2c3639;
@@ -149,6 +154,7 @@ ul {
 }
 
 /* corys contact section */
+
 .contact-cory {
   background-color: #3f4e4f;
   color: #dcd7c9;
@@ -161,6 +167,7 @@ ul {
 }
 
 /* contact form section */
+
 form {
   display: flex;
   flex-direction: column;
@@ -187,6 +194,7 @@ form input {
 }
 
 /* footer section */
+
 footer {
   background-color: #dcd7c9;
   color: #2c3639;
@@ -222,7 +230,29 @@ footer {
   color: #2c3639;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #2c3639;
+  font-size: 0.75rem;
+}
+
+.footer-nav a:hover {
+  border-bottom: 3px #2c3639 solid;
+}
+
 /* skills section experiences interactive part */
+
 * {
   box-sizing: border-box;
 }
@@ -255,10 +285,9 @@ footer {
 }
 
 /* setting layout for mobile */
+
 @media screen and (max-width: 700px) {
-  body {
-    flex-direction: column;
-  }
+  /* heading section mobile */
   .nav-header {
     flex-direction: column;
     align-self: flex-end;
@@ -270,6 +299,8 @@ footer {
     justify-content: center;
   }
 
+  /* social media nav bar mobile settings */
+
   .socialmedia-navbar {
     display: flex;
     flex-direction: column;
@@ -277,15 +308,24 @@ footer {
     margin-left: auto;
   }
 
+  .socialmedia-navbar li {
+    padding-bottom: 0.25rem;
+  }
+
+  /* mobile settings for hobby list */
+
   .hobby-list {
     display: grid;
     grid-template-columns: 1fr;
   }
 
+  /* mobile settings for skills section in experiences  */
+
   .all-skills {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .left-skills {
     display: grid;
     grid-column-start: 1;
@@ -301,6 +341,7 @@ footer {
   }
 
   /* navbar mobile settings */
+
   .site-nav {
     display: flex;
     align-items: center;
