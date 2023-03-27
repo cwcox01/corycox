@@ -1,14 +1,26 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
-// importing component items
-
+// importing smaller component
 import NavbarUl from "./NavbarUl";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setIsActive(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [navbarRef]);
+
   return (
-    <div className="navbar">
+    <div className="navbar" ref={navbarRef}>
       <h1 className="h1-home">
         <a href="index.html">Cory Cox</a>
       </h1>
