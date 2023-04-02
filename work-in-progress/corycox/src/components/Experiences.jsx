@@ -10,11 +10,13 @@ function Experiences() {
   return (
     // starting div for corys experiences
     <div className="cory-experiences" id="experience-cory">
-      <div className="section-header">
+      <div className="text-center">
         <h2 className="section-head fs-1 ps-1">Cory's Experiences</h2>
       </div>
       <div className="work-experience">
-        <h3 className="fs-4 sub-section-head">Professional Experience</h3>
+        <h3 className="fs-4 sub-section-head text-center">
+          Professional Experience
+        </h3>
         <div className="work-jobs ms-5 pt-4">
           <div className="jobs">
             <ExperienceItem
@@ -28,7 +30,9 @@ function Experiences() {
           </div>
         </div>
         <div className="education">
-          <h3 className="education-header fs-4 sub-section-head">Education</h3>
+          <h3 className="education-header fs-4 sub-section-head text-center">
+            Education
+          </h3>
           <div className="education-iupui ms-5 pt-4">
             <EducationItem
               educationSchool="IUPUI"
@@ -39,7 +43,7 @@ function Experiences() {
         </div>
 
         <div className="skills-section">
-          <h3 className="fs-4 sub-section-head">Skills</h3>
+          <h3 className="fs-4 sub-section-head text-center">Skills</h3>
           <div className="all-skills">
             <div className="left-skills">
               <Skill
@@ -125,7 +129,7 @@ function Experiences() {
           </div>
         </div>
         <div className="portfolio">
-          <h3 className="sub-section-head">Cory's Portfolio</h3>
+          <h3 className="sub-section-head text-center">Cory's Portfolio</h3>
           <Portfolio />
         </div>
       </div>

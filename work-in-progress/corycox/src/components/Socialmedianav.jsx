@@ -3,7 +3,7 @@ import SocialmedianavItem from "./SocialmedianavItem";
 
 export default function Socialmedianav() {
   return (
-    <ul className="socialmedia-navbar btn-cory pt-1">
+    <ul className="socialmedia-navbar d-flex btn-cory pt-2">
       <SocialmedianavItem
         socialBtnUrl="mailto:cory@corycox.com"
         socialBtnText="Email Me"

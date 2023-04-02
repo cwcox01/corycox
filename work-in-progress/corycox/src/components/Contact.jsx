@@ -6,7 +6,7 @@ import ContactItem from "./ContactItem";
 function Contact() {
   return (
     <div className="contact-cory" id="contact-me">
-      <h2 className="contact-header section-head section-header">
+      <h2 className="contact-header section-head section-header text-center">
         Contact Cory
       </h2>
       <form name="contact" method="post" action="mailto:cory@corycox.com">

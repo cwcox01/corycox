@@ -11,7 +11,7 @@ export default function HeadingintroItem({
       <p>
         <em>{headingJobTitle}</em>
       </p>
-      <p className="heading-intro">{headingIntro}</p>
+      <p className="d-flex text-start">{headingIntro}</p>
     </div>
   );
 }

@@ -1,3 +1,12 @@
+/* css variables */
+:root {
+  --colorWhite: white;
+  --colorDarkGreen: #3f4e4f;
+  --colorTan: #dcd7c9;
+  --colorBrown: #a27b5c;
+  --colorDarkBlue: #2c3639;
+}
+
 /* body section and misc css elements applying to everywhere*/
 
 body {
@@ -9,18 +18,13 @@ ul {
 }
 
 .btn a {
-  color: white;
+  color: var(--colorWhite);
   text-decoration: none;
-}
-
-.section-header {
-  text-align: center;
 }
 
 .sub-section-head {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  text-align: center;
   border-radius: 5px;
 }
 
@@ -52,13 +56,12 @@ ul {
 /* nav bar header section */
 
 .navbar {
-  background-color: #3f4e4f;
-  color: #dcd7c9;
-  display: flex;
+  background-color: var(--colorDarkGreen);
+  color: var(--colorTan);
 }
 
 .navbar a {
-  color: #dcd7c9;
+  color: var(--colorTan);
   padding-left: 1.5rem;
   letter-spacing: 1.25px;
 }
@@ -67,7 +70,7 @@ ul {
 
 .nav-header a:active {
   text-decoration: none;
-  color: #a27b5c;
+  color: var(--colorBrown);
 }
 .nav-header a:link {
   text-decoration: none;
@@ -75,7 +78,7 @@ ul {
 
 .nav-header a:hover {
   text-decoration: none;
-  color: #a27b5c;
+  color: var(--colorBrown);
 }
 
 .h1-home a {
@@ -87,43 +90,22 @@ ul {
 }
 
 .h1-home a:hover {
-  color: #a27b5c;
+  color: var(--colorBrown);
 }
 
 /* header section */
 
 .header {
-  background-color: #dcd7c9;
-  color: #2c3639;
+  background-color: var(--colorTan);
+  color: var(--colorDarkBlue);
   padding: 2rem 2rem;
-}
-
-.header-img {
-  display: flex;
-}
-
-.header-intro {
-  display: flex;
-}
-
-.heading-intro {
-  text-align: left;
-}
-
-.socialmedia-nav {
-  display: flex;
-  justify-content: flex-start;
-}
-.socialmedia-navbar {
-  display: flex;
-  flex-direction: row;
 }
 
 /* experiences section */
 
 .cory-experiences {
-  background-color: #3f4e4f;
-  color: #dcd7c9;
+  background-color: var(--colorDarkGreen);
+  color: var(--colorTan);
   padding: 2rem 2rem;
 }
 
@@ -143,8 +125,8 @@ ul {
 /* corys hobby section */
 
 .cory-hobby {
-  background-color: #dcd7c9;
-  color: #2c3639;
+  background-color: var(--colorTan);
+  color: var(--colorDarkBlue);
   padding: 2rem 2rem;
 }
 
@@ -156,9 +138,8 @@ ul {
 /* corys contact section */
 
 .contact-cory {
-  background-color: #3f4e4f;
-  color: #dcd7c9;
-  display: grid;
+  background-color: var(--colorDarkGreen);
+  color: var(--colorTan);
   padding: 2rem 2rem;
 }
 
@@ -196,8 +177,8 @@ form input {
 /* footer section */
 
 footer {
-  background-color: #dcd7c9;
-  color: #2c3639;
+  background-color: var(--colorTan);
+  color: var(--colorDarkBlue);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +195,7 @@ footer {
 .footer-email,
 .social-links a:active {
   text-decoration: none;
-  color: #2c3639;
+  color: var(--colorDarkBlue);
 }
 
 .footer-email a:link {
@@ -223,11 +204,11 @@ footer {
 
 .footer-email a:hover {
   text-decoration: none;
-  color: #3f4e4f;
+  color: var(--colorDarkGreen);
 }
 
 .fa {
-  color: #2c3639;
+  color: var(--colorDarkBlue);
 }
 
 .footer-content {
@@ -243,12 +224,12 @@ footer {
 
 .footer-nav a {
   text-decoration: none;
-  color: #2c3639;
+  color: var(--colorDarkBlue);
   font-size: 0.75rem;
 }
 
 .footer-nav a:hover {
-  border-bottom: 3px #2c3639 solid;
+  border-bottom: 2px var(--colorDarkBlue) solid;
 }
 
 /* skills section experiences interactive part */
@@ -266,7 +247,7 @@ footer {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: var(--colorWhite);
 }
 
 .active-directory {
@@ -360,7 +341,7 @@ footer {
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: #dcd7c9;
+    background-color: var(--colorTan);
     top: 50%;
     margin-top: -1px;
     transition: all 0.2s ease-in-out;
@@ -380,7 +361,7 @@ footer {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #3f4e4f;
+    background-color: var(--colorDarkGreen);
     padding: 10px;
   }
 
