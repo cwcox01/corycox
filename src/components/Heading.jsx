@@ -10,7 +10,7 @@ import HeadingintroItem from "./HeadingintroItem";
 function Header() {
   return (
     <div className="header" id="about-cory">
-      <div className="header-img ps-1">
+      <div className="ps-1 d-flex">
         <div className="headshot-img">
           <div className=" pt-2 ps-3">
             <img src={headshot} alt="Cory Cox Headshot" />
@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="socialmedia-nav">
+      <div className="d-flex justify-content-start">
         <Socialmedianav />
       </div>
     </div>

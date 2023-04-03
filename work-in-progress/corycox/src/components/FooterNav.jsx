@@ -7,7 +7,7 @@ export default function FooterNav() {
   return (
     <div>
       <nav className="pe-3 pt-4">
-        <ul className="footer-nav">
+        <ul className="footer-nav d-flex">
           <FooterNavItem
             footerNavUrl="#about-cory"
             footerNavText="About Cory"

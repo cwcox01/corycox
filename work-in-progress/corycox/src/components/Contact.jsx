@@ -9,16 +9,20 @@ function Contact() {
       <h2 className="contact-header section-head section-header text-center">
         Contact Cory
       </h2>
-      <form name="contact" method="post" action="mailto:cory@corycox.com">
+      <form
+        name="contact"
+        method="post"
+        action="mailto:cory@corycox.com"
+        className="d-flex flex-column align-items-center"
+      >
         <ContactItem labelText="Your Name" labelType="text" labelName="name" />
         <ContactItem
           labelText="Your Email"
           labelType="email"
           labelName="email"
         />
-
         <p>
-          <label>
+          <label className="d-flex align-items-start">
             Message: <textarea name="message"></textarea>
           </label>
         </p>

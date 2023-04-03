@@ -149,13 +149,6 @@ ul {
 
 /* contact form section */
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 form input,
 textarea {
   margin-left: 1rem;
@@ -163,11 +156,6 @@ textarea {
 
 form p {
   padding: 0.5rem;
-}
-
-form label {
-  display: flex;
-  align-items: flex-start;
 }
 
 form input {
@@ -179,9 +167,6 @@ form input {
 footer {
   background-color: var(--colorTan);
   color: var(--colorDarkBlue);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 2rem 0;
 }
 .cory-footer-name {
@@ -209,17 +194,6 @@ footer {
 
 .fa {
   color: var(--colorDarkBlue);
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: row;
 }
 
 .footer-nav a {

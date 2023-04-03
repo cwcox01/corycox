@@ -8,7 +8,7 @@ import FooterNav from "./FooterNav";
 function Footer() {
   return (
     <div className="footer">
-      <footer>
+      <footer className="d-flex flex-column align-items-center">
         <FooterContent />
         <div className="social-footer-icons">
           <FooterList />
