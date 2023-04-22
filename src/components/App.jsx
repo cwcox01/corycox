@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Heading from "./Heading";
-import Experiences from "./Experiences";
-import Hobbies from "./Hobbies";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Navbar from "./Navbar/Navbar";
+import Heading from "./Heading/Heading";
+import Experiences from "./Experiences/Experiences";
+import Hobbies from "./Hobbies/Hobbies";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (

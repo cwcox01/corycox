@@ -362,4 +362,15 @@ footer {
     display: block;
     height: auto;
   }
+
+  /* portfolio section in heading section mobile settings */
+
+  .portfolio-sites {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-sites li {
+    padding-top: 0.75rem;
+  }
 }

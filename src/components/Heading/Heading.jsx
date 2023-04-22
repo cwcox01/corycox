@@ -1,7 +1,7 @@
 import React from "react";
 
 // importing photo headshot
-import headshot from "../img/cory-headshot.png";
+import headshot from "../../img/cory-headshot.png";
 
 // importing smaller components
 import Socialmedianav from "./Socialmedianav";
