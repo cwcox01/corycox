@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.094b1e0d.js",
+    "static/media/cory-headshot.png": "/static/media/cory-headshot.29163f13433ee23cc1fb.png",
+    "index.html": "/index.html",
+    "main.094b1e0d.js.map": "/static/js/main.094b1e0d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.094b1e0d.js"
+  ]
+}
